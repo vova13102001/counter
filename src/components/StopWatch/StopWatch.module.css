@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: 5px solid red;
+}
+
+.currentTime {
+  color: green;
+  font-size: 3rem;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  background-color: white;
+  outline: none;
+  border: 2px solid green;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
